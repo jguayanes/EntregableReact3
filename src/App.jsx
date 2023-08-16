@@ -34,8 +34,8 @@ function App() {
     <main className='bg-black min-h-screen text-white grid gap-2'>
       <nav className='bg-[url(/fondo1.png)] grid gap-3'>
         <div className='relative grid justify-center'>
-          <img className='relative' src="/aurora.png" alt="" />
-          <img className='absolute top-6 sm:left-[480px]' src="/nombre1.png" alt="" />
+          <img className='relative animate-pulse' src="/aurora.png" alt="" />
+          <img className='absolute top-6 sm:left-[480px] animate-bounce' src="/nombre1.png" alt="" />
         </div>
       <LocationForm handleSubmit={handleSubmit}/>
       <LocationInfo location={location}/>
