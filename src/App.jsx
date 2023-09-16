@@ -34,7 +34,7 @@ function App() {
         <div className="relative grid justify-center">
           <img className="relative animate-pulse" src="/aurora.png" alt="" />
           <img
-            className="absolute top-6 md:left-[37%] animate-bounce"
+            className="absolute top-6 md:left-[35%] animate-bounce"
             src="/nombre1.png"
             alt=""
           />
